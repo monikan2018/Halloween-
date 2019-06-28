@@ -1,0 +1,153 @@
+﻿
+/* the styles for the elements*/
+body {
+    width: 800px;
+    background-color: white;
+    border: 3px solid black;
+    background-image: url("images/bats.gif");
+    box-shadow: 3px 4px 10px 5px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+}
+a {font-weight: bold;}
+a:link { color: orange;}
+a:focus, a:hover {color: green;}
+
+ section, aside, h1, h2, h3, h4,h5, p {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    line-height: 1em;
+    background-color: white;
+    padding-left:2em;
+}
+li {
+    font-size: 120%;
+    line-height:1.5em;
+    font-weight:bold;
+    background-color:white;
+}
+p {
+    padding-bottom: 1em;
+    font-size: 95%;
+    padding-left: 1em;
+}
+em {
+    font-weight: bold;
+    font-style: normal;
+    background-color: white;
+}
+
+/* the styles for the header*/
+header {
+    background-color: white;
+    padding-bottom: 0.5em;
+    padding-top: 0.3em;
+    border-bottom: 4px solid black;
+}
+
+header img {
+        float: left;
+        padding-top: 0.7em;
+        padding-left: 1em;
+    }
+
+header h2 {
+        padding-top: 0.5em;
+        text-indent: 0.7em;
+        font-size: 250%;
+        color: black;
+        font-style: normal;
+        font-weight: bolder;
+    }
+
+header h3 {
+        font-size: 130%;
+        text-indent: 1.5em;
+        font-weight: bolder;
+        padding-bottom: 0.2em;
+    }
+/*the styles for the main content*/
+section{ 
+    background-color:white;
+    width:630px;
+    float:right;
+    padding-left:10px;
+}
+
+    section h1 {
+        padding-top: 1.5em;
+        font-size: 150%;
+        font-weight: bold;
+    }
+    section h2 {
+        padding-top:0.3em;
+        padding-left:0.5em;
+        padding-bottom:0.5em;
+        font-size: 150%;
+        font-weight: bold;
+    }
+    section h3{
+        padding-top:0.2em;
+        padding-left: 0.7em;
+        font-size: 150%;
+        font-weight: bold;
+    }
+    section img{
+        padding-top:0.5em;
+    }
+    section h4{
+        padding-top:0.7em;
+        padding-left:0.2em;
+        font-size:130%;
+    }
+    section h5 {
+        padding-top:1em;
+        font-size: 130%;
+        font-weight: bold;
+        padding-left:0.4em;
+        padding-bottom:1em;
+}
+
+/*the styles for the footer content*/
+aside{
+    float:left;
+    width:160px;
+    background-color:white;
+    padding-bottom: 470px;
+    padding-top:1.5em;
+}
+
+footer {
+    clear:both;
+    background-color: white;
+    border-top: 4px solid black;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    text-align: center;
+    font-size: 83%;
+}
+
+.grad1 {
+    background: -webkit-linear-gradient(45deg, white 0%, orange75%, black 100%);
+    background: -moz-linear-gradient(45deg,white 0%, orange 75%, black 100%);
+    background: -o-linear-gradient(45deg, white 0%, orange 75%, black 100%);
+    background: linear-gradient(45deg,white 0%, orange 75%, black 100%);
+}
+
+.grad2 {
+    background: -webkit-linear-gradient(45deg, black 0%, orange30%, white 100%);
+    background: -moz-linear-gradient(45deg,black 0%, orange 30%, white 100%);
+    background: -o-linear-gradient(45deg, black 0%, orange 30%, white 100%);
+    background: linear-gradient(45deg, black 0%, orange 30%, white 100%);
+}
+#last {
+    padding-bottom: 2em;
+    padding-left:0.4em;
+}
+.main-section-h1:first-letter {
+    font-size: 220%;
+    font-weight: bold;
+    padding-left: 0.2em;
+}
